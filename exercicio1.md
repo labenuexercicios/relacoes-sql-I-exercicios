@@ -9,12 +9,12 @@ Na próxima aula veremos como criar a lógica para adicionar produtos em uma ord
   - id (TEXT, PK, único e obrigatório)
   - total_price (REAL, único e obrigatório)
   - paid (INTEGER e obrigatório)
-  - deliveredAt (TEXT e opcional)
+  - delivered_at (TEXT e opcional)
   - buyer_id (TEXT, obrigatório e FK = referencia a coluna id da tabela users)
 
 ### Observações
 A coluna paid será utilizada para guardar uma lógica booleana. O SQLite recomenda o uso do número 0 para false e 1 para true.<br>
-Os pedidos começam com paid valendo 0 e quando o pagamento for finalizado, se atualiza para true.<br>
+Os pedidos começam com paid valendo 0 e quando o pagamento for finalizado, se atualiza para 1.<br>
 <br>
-A coluna deliveredAt será utilizada para gerenciar a data de entrega do pedido. Ela é opcional, porque sempre começará sem valor ao criar um pedido, ou seja, null.<br>
+A coluna delivered_at será utilizada para gerenciar a data de entrega do pedido. Ela é opcional, porque sempre começará sem valor ao criar um pedido, ou seja, null.<br>
 O SQLite recomenda utilizar TEXT para lidar com strings no formato ISO8601 "aaaa-mm-dd hh:mm:sss". Lembre-se da existência da função nativa DATETIME.<br>
