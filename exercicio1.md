@@ -17,4 +17,4 @@ A coluna paid será utilizada para guardar uma lógica booleana. O SQLite recome
 Os pedidos começam com paid valendo 0 e quando o pagamento for finalizado, se atualiza para 1.<br>
 <br>
 A coluna delivered_at será utilizada para gerenciar a data de entrega do pedido. Ela é opcional, porque sempre começará sem valor ao criar um pedido, ou seja, null.<br>
-O SQLite recomenda utilizar TEXT para lidar com strings no formato ISO8601 "aaaa-mm-dd hh:mm:sss". Lembre-se da existência da função nativa DATETIME.<br>
+O SQLite recomenda utilizar TEXT para lidar com strings no formato ISO8601 "aaaa-mm-dd hh:mm:sss". Lembre-se da existência da função nativa DATETIME para gerar datas nesse formato.<br>
