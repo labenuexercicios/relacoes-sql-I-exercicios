@@ -14,7 +14,7 @@ Na próxima aula veremos como criar a lógica para adicionar produtos em uma ord
 
 ### Observações
 A coluna paid será utilizada para guardar uma lógica booleana. O SQLite recomenda o uso do número 0 para false e 1 para true.<br>
-Os pedidos começam com paid valendo 0 e quando o pagamento for finalizado, se atualiza para 1.<br>
+Os pedidos começam com paid valendo 0.<br>
 <br>
 A coluna delivered_at será utilizada para gerenciar a data de entrega do pedido. Ela é opcional, porque sempre começará sem valor ao criar um pedido, ou seja, null.<br>
 O SQLite recomenda utilizar TEXT para lidar com strings no formato ISO8601 "aaaa-mm-dd hh:mm:sss". Lembre-se da existência da função nativa DATETIME para gerar datas nesse formato.<br>
