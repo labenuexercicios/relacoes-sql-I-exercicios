@@ -7,7 +7,7 @@ Na próxima aula veremos como criar a lógica para adicionar produtos em uma ord
 - nome da tabela: **purchases**
 - colunas da tabela:
   - id (TEXT, PK, único e obrigatório)
-  - total_price (REAL, único e obrigatório)
+  - total_price (REAL e obrigatório)
   - paid (INTEGER e obrigatório)
   - delivered_at (TEXT e opcional)
   - buyer_id (TEXT, obrigatório e FK = referencia a coluna id da tabela users)
