@@ -9,7 +9,7 @@ Na próxima aula veremos como criar a lógica para adicionar produtos em uma ord
   - id (TEXT, PK, único e obrigatório)
   - total_price (REAL e obrigatório)
   - paid (INTEGER e obrigatório)
-  - delivered_at (TEXT e opcional)
+  - created_at (TEXT e opcional)
   - buyer_id (TEXT, obrigatório e FK = referencia a coluna id da tabela users)
 
 ### Observações
