@@ -1,5 +1,5 @@
 # Exercício 2
-Popule sua tabela de pedidos, criada no exercício anterior.<br>
+Popule sua tabela de pedidos (purchases), criada no exercício anterior.<br>
 Por enquanto não se preocupe em adicionar produtos ao pedido, veremos isso na aula que vem.<br>
 Com isso em mente, escolha um valor aleatório para o preço total do pedido e a data em texto.
 
