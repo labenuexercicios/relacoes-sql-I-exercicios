@@ -11,3 +11,4 @@ Imagine que você esteja criando a lógica para gerar o recibo, que deve possuir
 Dica: todos esses dados estão nas tabelas users e purchases! Faça um SELECT com JOIN unindo as duas e selecionando as colunas necessárias.
 
 # Exemplo de resultado
+![image](https://github.com/labenuexercicios/relacoes-sql-I-exercicios/assets/29845719/35e798b0-382f-4ee4-bb0a-2e9cd5602b71)
