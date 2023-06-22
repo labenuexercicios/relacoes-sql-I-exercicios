@@ -9,3 +9,5 @@ Imagine que você esteja criando a lógica para gerar o recibo, que deve possuir
 - data da compra
 
 Dica: todos esses dados estão nas tabelas users e purchases! Faça um SELECT com JOIN unindo as duas e selecionando as colunas necessárias.
+
+# Exemplo de resultado
