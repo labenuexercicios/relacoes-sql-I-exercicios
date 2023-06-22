@@ -6,9 +6,10 @@ Por ora não precisaremos editar as tabelas já existentes (users e products). N
 - nome da tabela: **purchases**
 - colunas da tabela:
   - id (TEXT, PK, único e obrigatório)
-  - buyer (TEXT, obrigatório e FK = referencia a coluna id da tabela users)
+  - buyer (TEXT, obrigatório)
   - total_price (REAL e obrigatório)
-  - created_at (TEXT e opcional)
+  - created_at (TEXT e obrigatório)
+  - a chave estrangeira (FK) será a coluna buyer e irá referenciar a coluna id da tabela users
 
 # Observação
 Por enquanto só estamos criando a tabela de pedidos! Na próxima aula veremos como criar a tabela para adicionar os produtos de cada pedido.
