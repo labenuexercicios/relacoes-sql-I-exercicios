@@ -1,10 +1,11 @@
 # Exercício 2
 Popule sua tabela de pedidos, criada no exercício anterior.<br>
 Por enquanto não se preocupe em adicionar produtos ao pedido, veremos isso na aula que vem.<br>
-Com isso em mente, crie um valor aleatório para o preço total do pedido.
+Com isso em mente, escolha um valor aleatório para o preço total do pedido e a data em texto.
 
-## a) Crie dois pedidos para cada usuário cadastrado
-No mínimo 4 no total (ou seja, pelo menos 2 usuários diferentes) e devem iniciar com a data de entrega nula.
+## a) Crie um pedido para cada pessoa cadastrada
+- no mínimo 2 no total (ou seja, na tabela users deve existir pelo menos 2 pessoas diferentes)
+- escolha um valor aleatório para o preço total do pedido e a data em texto
 
-## b) Edite o status da data de entrega de um pedido
-Simule que o pedido foi entregue no exato momento da sua edição (ou seja, data atual).
+## b) Edite o preço total do pedido (só pra praticar)
+- simule que o pedido foi alterado e o preço total diminuiu ou aumentou
