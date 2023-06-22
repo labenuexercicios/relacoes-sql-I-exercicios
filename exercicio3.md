@@ -12,4 +12,4 @@ Dica: todos esses dados estão nas tabelas users e purchases! Faça um SELECT co
 
 # Exemplo de resultado
 ![image](https://github.com/labenuexercicios/relacoes-sql-I-exercicios/assets/29845719/35e798b0-382f-4ee4-bb0a-2e9cd5602b71)
-- created_at poderia estar no formato '2023-06-22T18:42:00.278Z' sem problemas
+- created_at poderia estar no formato '2023-06-22T18:42:00.278Z' (criado via ```new Date().toISOString()```) sem problemas
